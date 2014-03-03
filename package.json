@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "https://github.com/yavorskiy/grunt-templated-changelog"
   },
   "bugs": {
     "url": ""
@@ -42,6 +42,6 @@
     "grunt": "~0.4.2"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin", "grunt", "changelog", "release notes"
   ]
 }
