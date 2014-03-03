@@ -1,0 +1,61 @@
+[{
+ "hash": "021e25c649a5ffcb1f619833ab671f63f8f454c0",
+ "hash_abbr": "021e25c",
+ "author_name": "John Doe",
+ "author_email": "john.doe@domain.com",
+ "date": "2014-02-26 11:25:28 -0800",
+ "subject": "Fixing Something somehow",
+ "body": "bugfix(Something) Fixing Something somehow\n\nIssues #APP-99",
+ "label": "bugfix",
+ "target": "Something",
+ "issues": [
+  "APP-99"
+ ]
+}, {
+ "hash": "fade3f6d3532d5b915226d59d68884b7e602991f",
+ "hash_abbr": "fade3f6",
+ "author_name": "John Doe",
+ "author_email": "john.doe@domain.com",
+ "date": "2014-02-24 11:43:58 -0800",
+ "subject": "Another fix",
+ "body": "bugfix(Component) Another fix\n\nIssues #APP-99, #APP-98",
+ "label": "bugfix",
+ "target": "Component",
+ "issues": [
+  "APP-99",
+  "APP-98"
+ ]
+}, {
+ "hash": "2ead19eeb6f6c0f63c1e263124ebcb57aae12a72",
+ "hash_abbr": "2ead19e",
+ "author_name": "John Doe",
+ "author_email": "john.doe@domain.com",
+ "date": "2014-02-24 11:33:31 -0800",
+ "subject": "Added tweaks and tricks",
+ "body": "feature(Something) Added tweaks and tricks\n\nMore description text here",
+ "label": "feature",
+ "target": "Something"
+}, {
+ "hash": "6048f3485a69f3bc67a0b05a33372875a6abc5ac",
+ "hash_abbr": "6048f34",
+ "author_name": "John Doe",
+ "author_email": "john.doe@domain.com",
+ "date": "2014-02-23 23:28:44 -0800",
+ "subject": "Another commit",
+ "body": "style(Component) Another commit\n\nissues #APP-91",
+ "label": "style",
+ "target": "Component",
+ "issues": [
+  "APP-91"
+ ]
+}, {
+ "hash": "dddc845b2e5396458473c1c03ad96afbab39818e",
+ "hash_abbr": "dddc845",
+ "author_name": "John Doe",
+ "author_email": "john.doe@domain.com",
+ "date": "2014-02-23 23:28:04 -0800",
+ "subject": "multiline comment",
+ "body": "refactor(Component) multiline comment\n\ngoes here\n\nand here",
+ "label": "refactor",
+ "target": "Component"
+}]

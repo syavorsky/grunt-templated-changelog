@@ -1,0 +1,34 @@
+<@@@<@@hash@@021e25c649a5ffcb1f619833ab671f63f8f454c0@@><@@hash_abbr@@021e25c@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-26 11:25:28 -0800@@><@@subject@@bugfix(Something) Fixing Something somehow@@><@@body@@bugfix(Something) Fixing Something somehow
+
+@marker:2
+Issues #APP-99
+@@>@@@>
+<@@@<@@hash@@fade3f6d3532d5b915226d59d68884b7e602991f@@><@@hash_abbr@@fade3f6@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-24 11:43:58 -0800@@><@@subject@@bugfix(Component) Another fix@@><@@body@@bugfix(Component) Another fix
+
+Issues #APP-99, #APP-98
+
+BREAKING CHANGES:
+- breaks the build
+- causes headaches
+@@>@@@>
+<@@@<@@hash@@2ead19eeb6f6c0f63c1e263124ebcb57aae12a72@@><@@hash_abbr@@2ead19e@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-24 11:33:31 -0800@@><@@subject@@feature(Something) Added tweaks and tricks@@><@@body@@feature(Something) Added tweaks and tricks
+
+More description text here
+
+@marker:1
+
+BREAKING CHANGES:
+Use `options.b` instead of `options.a`
+@@>@@@>
+<@@@<@@hash@@6048f3485a69f3bc67a0b05a33372875a6abc5ac@@><@@hash_abbr@@6048f34@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-23 23:28:44 -0800@@><@@subject@@style(Component) Another commit@@><@@body@@style(Component) Another commit
+
+issues #APP-91
+@@>@@@>
+<@@@<@@hash@@dddc845b2e5396458473c1c03ad96afbab39818e@@><@@hash_abbr@@dddc845@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-23 23:28:04 -0800@@><@@subject@@refactor(Component) multiline comment@@><@@body@@refactor(Component) multiline comment
+
+goes here
+
+and here
+@@>@@@>
+<@@@<@@hash@@bf4394badf03b13d0bc27ff6462e536952738be8@@><@@hash_abbr@@bf4394b@@><@@author_name@@John Doe@@><@@author_email@@john.doe@domain.com@@><@@date@@2014-02-23 23:27:17 -0800@@><@@subject@@One line comment with no label@@><@@body@@One line comment with no label
+@@>@@@>
