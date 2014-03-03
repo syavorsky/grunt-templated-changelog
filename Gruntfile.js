@@ -17,6 +17,8 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -50,7 +52,8 @@ module.exports = function(grunt) {
 
       release: {
         options: {
-          version: '0.1.0'
+          version: '<%= pkg.version %>',
+          template: 'labeled'
         }
       },
 
