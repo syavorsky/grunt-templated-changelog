@@ -15,7 +15,7 @@ function Parser(options) {
   this._matchers = _.extend({
 
     // subject with "label(target)" stripped
-    subject : /^[^\(]+\([^\)]+\)\s+(.*)\n\n/,
+    subject : /^[^\(]+\([^\)]+\)\s+(.*)(?:\n\n|$)/,
 
     // label, assuming line starts with "label(target)"
     label   : /^([^\(]+)\([^\)]+\)\s+/,
