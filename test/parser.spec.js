@@ -109,6 +109,32 @@ describe('lib/parser', function() {
     });
   });
 
+  it('should parse `label()` with no target', function(done) {
+
+    var parser = new Parser();
+
+    git.log('log.notarget')
+      .pipe(parser);
+
+    parser.on('data', function(commit) {
+
+      expect(commit)
+        .to.eql({
+          hash         : 'fade3f6d3532d5b915226d59d68884b7e602991f',
+          hash_abbr    : 'fade3f6',
+          author_name  : 'John Doe',
+          author_email : 'john.doe@domain.com',
+          date         : '2014-02-24 11:43:58 -0800',
+          body         : 'bugfix() Another fix\n\nnext line',
+
+          subject      : 'Another fix',
+          label        : 'bugfix'
+        });
+
+      done();
+    });
+  });
+
   it('should parse `Issues #issue[, #issue[, #issue]]`', function(done) {
 
     var parser = new Parser();
