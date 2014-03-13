@@ -1,4 +1,8 @@
 
+# 0.1.2
+
+- `bugfix` allow empty target in subjects with `label()` `a69dee4`
+
 # 0.1.1
 
 - `bugfix` fix subject parsing for one line commits `82adc9b`
