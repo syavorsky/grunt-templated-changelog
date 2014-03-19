@@ -1,7 +1,7 @@
 {
   "name": "grunt-templated-changelog",
   "description": "Generates customized changelog file from git logs.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "",
   "author": {
     "name": "Sergii Iavorskyi",
@@ -20,6 +20,7 @@
       "url": "/blob/master/LICENSE-MIT"
     }
   ],
+  "main": "tasks/changelog.js",
   "engines": {
     "node": ">= 0.8.0"
   },
