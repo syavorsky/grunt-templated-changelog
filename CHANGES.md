@@ -1,4 +1,8 @@
 
+# 0.1.3
+
+- `chore` expose task as module's main file `a002b32`
+
 # 0.1.2
 
 - `bugfix` allow empty target in subjects with `label()` `a69dee4`
